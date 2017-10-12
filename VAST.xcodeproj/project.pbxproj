@@ -32,6 +32,17 @@
 		27CE3B4B183C209000AA96AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A7776817FB22FC00E3D3FB /* UIKit.framework */; };
 		27CE3B5E183C22B700AA96AA /* VAST_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2702B46D183C0C0F004CA93F /* VAST_Tests.m */; };
 		27CE3B6C183C240000AA96AA /* libSourceKitCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CE3B6B183C240000AA96AA /* libSourceKitCommon.a */; };
+		7E743D231F8EFC65006CBF63 /* SKReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E52FC291F8EF8F30075649B /* SKReachability.m */; };
+		7E743D241F8EFC66006CBF63 /* SKReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E52FC291F8EF8F30075649B /* SKReachability.m */; };
+		7E743D251F8EFC69006CBF63 /* SKLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E52FC2C1F8EF8F30075649B /* SKLogger.m */; };
+		7E743D261F8EFC69006CBF63 /* SKLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E52FC2C1F8EF8F30075649B /* SKLogger.m */; };
+		7E743D271F8EFC7A006CBF63 /* SKCommonSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E52FC1E1F8EF8920075649B /* SKCommonSettings.m */; };
+		7E743D281F8EFC7A006CBF63 /* SKCommonSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E52FC1E1F8EF8920075649B /* SKCommonSettings.m */; };
+		7E743D291F8EFC7E006CBF63 /* VASTXMLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C5E1981627E0094718D /* VASTXMLUtil.m */; };
+		7E743D2E1F8EFD4D006CBF63 /* SKBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E52FC231F8EF8EB0075649B /* SKBrowser.m */; };
+		7E743D2F1F8EFD4E006CBF63 /* SKBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E52FC231F8EF8EB0075649B /* SKBrowser.m */; };
+		7E743D301F8EFD50006CBF63 /* SKBrowserControlsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E52FC251F8EF8EB0075649B /* SKBrowserControlsView.m */; };
+		7E743D311F8EFD50006CBF63 /* SKBrowserControlsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E52FC251F8EF8EB0075649B /* SKBrowserControlsView.m */; };
 		E248E36B17FA2A87003F4B8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E248E36A17FA2A87003F4B8A /* Foundation.framework */; };
 		E2A7776917FB22FC00E3D3FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A7776817FB22FC00E3D3FB /* UIKit.framework */; };
 		E2AA985117FCC952006113B6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AA984B17FCC833006113B6 /* CoreFoundation.framework */; };
@@ -145,59 +156,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		27983C451981627E0094718D /* model */ = {
-			isa = PBXGroup;
-			children = (
-				27983C461981627E0094718D /* SKVASTMediaFile.h */,
-				27983C471981627E0094718D /* SKVASTMediaFile.m */,
-				27983C481981627E0094718D /* SKVASTModel.h */,
-				27983C491981627E0094718D /* SKVASTModel.m */,
-				27983C4A1981627E0094718D /* SKVASTUrlWithId.h */,
-				27983C4B1981627E0094718D /* SKVASTUrlWithId.m */,
-			);
-			name = model;
-			path = VAST/model;
-			sourceTree = SOURCE_ROOT;
-		};
-		7E52FC1F1F8EF8EB0075649B /* Browser */ = {
-			isa = PBXGroup;
-			children = (
-				7E52FC201F8EF8EB0075649B /* BackButton.h */,
-				7E52FC211F8EF8EB0075649B /* ForwardButton.h */,
-				7E52FC221F8EF8EB0075649B /* SKBrowser.h */,
-				7E52FC231F8EF8EB0075649B /* SKBrowser.m */,
-				7E52FC241F8EF8EB0075649B /* SKBrowserControlsView.h */,
-				7E52FC251F8EF8EB0075649B /* SKBrowserControlsView.m */,
-			);
-			path = Browser;
-			sourceTree = "<group>";
-		};
-		7E52FC261F8EF8F30075649B /* External */ = {
-			isa = PBXGroup;
-			children = (
-				7E52FC271F8EF8F30075649B /* Reachability */,
-			);
-			path = External;
-			sourceTree = "<group>";
-		};
-		7E52FC271F8EF8F30075649B /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				7E52FC281F8EF8F30075649B /* SKReachability.h */,
-				7E52FC291F8EF8F30075649B /* SKReachability.m */,
-			);
-			path = Reachability;
-			sourceTree = "<group>";
-		};
-		7E52FC2A1F8EF8F30075649B /* Logger */ = {
-			isa = PBXGroup;
-			children = (
-				7E52FC2B1F8EF8F30075649B /* SKLogger.h */,
-				7E52FC2C1F8EF8F30075649B /* SKLogger.m */,
-			);
-			path = Logger;
-			sourceTree = "<group>";
-		};
 		E248E35E17FA2A87003F4B8A = {
 			isa = PBXGroup;
 			children = (
@@ -234,19 +192,31 @@
 		E248E36C17FA2A87003F4B8A /* VAST */ = {
 			isa = PBXGroup;
 			children = (
-				27983C451981627E0094718D /* model */,
 				27983C4C1981627E0094718D /* SKVAST2Parser.h */,
+				27983C461981627E0094718D /* SKVASTMediaFile.h */,
+				27983C471981627E0094718D /* SKVASTMediaFile.m */,
+				27983C481981627E0094718D /* SKVASTModel.h */,
+				27983C491981627E0094718D /* SKVASTModel.m */,
+				27983C4A1981627E0094718D /* SKVASTUrlWithId.h */,
+				27983C4B1981627E0094718D /* SKVASTUrlWithId.m */,
 				27983C4D1981627E0094718D /* SKVAST2Parser.m */,
 				27983C4E1981627E0094718D /* SKVASTControls.h */,
 				27983C4F1981627E0094718D /* SKVASTControls.m */,
 				27983C501981627E0094718D /* SKVASTEventProcessor.h */,
 				27983C511981627E0094718D /* SKVASTEventProcessor.m */,
+				7E52FC281F8EF8F30075649B /* SKReachability.h */,
+				7E52FC291F8EF8F30075649B /* SKReachability.m */,
 				27983C521981627E0094718D /* SKVASTMediaFilePicker.h */,
-				7E52FC261F8EF8F30075649B /* External */,
-				7E52FC2A1F8EF8F30075649B /* Logger */,
+				7E52FC2B1F8EF8F30075649B /* SKLogger.h */,
+				7E52FC2C1F8EF8F30075649B /* SKLogger.m */,
 				27983C531981627E0094718D /* SKVASTMediaFilePicker.m */,
 				27983C541981627E0094718D /* SKVASTViewController.h */,
-				7E52FC1F1F8EF8EB0075649B /* Browser */,
+				7E52FC201F8EF8EB0075649B /* BackButton.h */,
+				7E52FC211F8EF8EB0075649B /* ForwardButton.h */,
+				7E52FC221F8EF8EB0075649B /* SKBrowser.h */,
+				7E52FC231F8EF8EB0075649B /* SKBrowser.m */,
+				7E52FC241F8EF8EB0075649B /* SKBrowserControlsView.h */,
+				7E52FC251F8EF8EB0075649B /* SKBrowserControlsView.m */,
 				27983C551981627E0094718D /* SKVASTViewController.m */,
 				27983C581981627E0094718D /* vast_2.0.1.xsd */,
 				27983C591981627E0094718D /* SKVASTError.h */,
@@ -346,15 +316,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				27983C781981664B0094718D /* VASTSettings.m in Sources */,
+				7E743D2F1F8EFD4E006CBF63 /* SKBrowser.m in Sources */,
 				27983C72198166350094718D /* SKVASTUrlWithId.m in Sources */,
+				7E743D311F8EFD50006CBF63 /* SKBrowserControlsView.m in Sources */,
 				27983C71198166330094718D /* SKVASTModel.m in Sources */,
 				27983C73198166380094718D /* SKVAST2Parser.m in Sources */,
 				27983C70198166300094718D /* SKVASTMediaFile.m in Sources */,
+				7E743D241F8EFC66006CBF63 /* SKReachability.m in Sources */,
 				27983C76198166430094718D /* SKVASTMediaFilePicker.m in Sources */,
+				7E743D291F8EFC7E006CBF63 /* VASTXMLUtil.m in Sources */,
 				27983C77198166460094718D /* SKVASTViewController.m in Sources */,
 				27CE3B5E183C22B700AA96AA /* VAST_Tests.m in Sources */,
 				27983C741981663E0094718D /* SKVASTControls.m in Sources */,
+				7E743D281F8EFC7A006CBF63 /* SKCommonSettings.m in Sources */,
 				27983C75198166410094718D /* SKVASTEventProcessor.m in Sources */,
+				7E743D261F8EFC69006CBF63 /* SKLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,13 +341,18 @@
 				27983C5F1981627E0094718D /* SKVASTMediaFile.m in Sources */,
 				27983C681981627E0094718D /* VASTXMLUtil.m in Sources */,
 				27983C641981627E0094718D /* SKVASTEventProcessor.m in Sources */,
+				7E743D301F8EFD50006CBF63 /* SKBrowserControlsView.m in Sources */,
 				27983C621981627E0094718D /* SKVAST2Parser.m in Sources */,
 				27983C611981627E0094718D /* SKVASTUrlWithId.m in Sources */,
+				7E743D231F8EFC65006CBF63 /* SKReachability.m in Sources */,
 				27983C661981627E0094718D /* SKVASTViewController.m in Sources */,
 				27983C601981627E0094718D /* SKVASTModel.m in Sources */,
+				7E743D2E1F8EFD4D006CBF63 /* SKBrowser.m in Sources */,
 				27983C651981627E0094718D /* SKVASTMediaFilePicker.m in Sources */,
 				27983C631981627E0094718D /* SKVASTControls.m in Sources */,
+				7E743D271F8EFC7A006CBF63 /* SKCommonSettings.m in Sources */,
 				27983C671981627E0094718D /* VASTSettings.m in Sources */,
+				7E743D251F8EFC69006CBF63 /* SKLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,11 +500,14 @@
 		E248E38B17FA2A87003F4B8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				DSTROOT = /tmp/VAST.dst;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = VAST;
 				SKIP_INSTALL = YES;
@@ -533,11 +517,14 @@
 		E248E38C17FA2A87003F4B8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				DSTROOT = /tmp/VAST.dst;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = VAST;
 				SKIP_INSTALL = YES;
