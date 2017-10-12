@@ -76,10 +76,10 @@
 		27983C5C1981627E0094718D /* VASTSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VASTSettings.m; path = VAST/VASTSettings.m; sourceTree = SOURCE_ROOT; };
 		27983C5D1981627E0094718D /* VASTXMLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VASTXMLUtil.h; path = VAST/VASTXMLUtil.h; sourceTree = SOURCE_ROOT; };
 		27983C5E1981627E0094718D /* VASTXMLUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VASTXMLUtil.m; path = VAST/VASTXMLUtil.m; sourceTree = SOURCE_ROOT; };
-		27BE491D1981889A004EE6D5 /* SKLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKLogger.h; path = VAST/SKLogger.h; sourceTree = SOURCE_ROOT; };
-		27BE491E198188BE004EE6D5 /* SKReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKReachability.h; path = VAST/SKReachability.h; sourceTree = "<group>"; };
 		27CE3B48183C209000AA96AA /* VAST Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VAST Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27CE3B6B183C240000AA96AA /* libSourceKitCommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSourceKitCommon.a; path = "../../../../../../../Library/Developer/Xcode/DerivedData/VASTDemo-ddgmpepqdrghpyfhxmxnvafxydyf/Build/Products/Debug-iphoneos/libSourceKitCommon.a"; sourceTree = "<group>"; };
+		7E52FC1D1F8EF8920075649B /* SKCommonSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKCommonSettings.h; sourceTree = "<group>"; };
+		7E52FC1E1F8EF8920075649B /* SKCommonSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKCommonSettings.m; sourceTree = "<group>"; };
 		D6E80D3F180DCF4D00D45091 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		E248E36717FA2A87003F4B8A /* libVAST.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVAST.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E248E36A17FA2A87003F4B8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -152,8 +152,6 @@
 		E248E35E17FA2A87003F4B8A = {
 			isa = PBXGroup;
 			children = (
-				27BE491D1981889A004EE6D5 /* SKLogger.h */,
-				27BE491E198188BE004EE6D5 /* SKReachability.h */,
 				E248E36C17FA2A87003F4B8A /* VAST */,
 				2702B467183C0C0F004CA93F /* VAST Tests */,
 				E248E36917FA2A87003F4B8A /* Frameworks */,
@@ -203,11 +201,12 @@
 				27983C5A1981627E0094718D /* VASTSchema.h */,
 				27983C5B1981627E0094718D /* VASTSettings.h */,
 				27983C5C1981627E0094718D /* VASTSettings.m */,
+				7E52FC1D1F8EF8920075649B /* SKCommonSettings.h */,
+				7E52FC1E1F8EF8920075649B /* SKCommonSettings.m */,
 				27983C5D1981627E0094718D /* VASTXMLUtil.h */,
 				27983C5E1981627E0094718D /* VASTXMLUtil.m */,
 			);
-			name = VAST;
-			path = "mmk-vast-ios";
+			path = VAST;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +242,7 @@
 			dependencies = (
 			);
 			name = VAST;
-			productName = "mmk-vast-ios";
+			productName = VAST;
 			productReference = E248E36717FA2A87003F4B8A /* libVAST.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -254,7 +253,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = Nexage;
+				ORGANIZATIONNAME = MAXAds;
 				TargetAttributes = {
 					27CE3B47183C209000AA96AA = {
 						TestTargetID = E248E36617FA2A87003F4B8A;
