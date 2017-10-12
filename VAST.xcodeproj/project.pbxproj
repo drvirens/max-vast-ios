@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		271DFDD2183E9D7C00D038A4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D08FBF17FB268C00EBF5B1 /* MediaPlayer.framework */; };
+		27982B69183D60DF0073C76D /* libVAST.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E248E36717FA2A87003F4B8A /* libVAST.a */; };
+		27983C5F1981627E0094718D /* SKVASTMediaFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C471981627E0094718D /* SKVASTMediaFile.m */; };
+		27983C601981627E0094718D /* SKVASTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C491981627E0094718D /* SKVASTModel.m */; };
+		27983C611981627E0094718D /* SKVASTUrlWithId.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C4B1981627E0094718D /* SKVASTUrlWithId.m */; };
+		27983C621981627E0094718D /* SKVAST2Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C4D1981627E0094718D /* SKVAST2Parser.m */; };
+		27983C631981627E0094718D /* SKVASTControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C4F1981627E0094718D /* SKVASTControls.m */; };
+		27983C641981627E0094718D /* SKVASTEventProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C511981627E0094718D /* SKVASTEventProcessor.m */; };
+		27983C651981627E0094718D /* SKVASTMediaFilePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C531981627E0094718D /* SKVASTMediaFilePicker.m */; };
+		27983C661981627E0094718D /* SKVASTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C551981627E0094718D /* SKVASTViewController.m */; };
+		27983C671981627E0094718D /* VASTSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C5C1981627E0094718D /* VASTSettings.m */; };
+		27983C681981627E0094718D /* VASTXMLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C5E1981627E0094718D /* VASTXMLUtil.m */; };
+		27983C70198166300094718D /* SKVASTMediaFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C471981627E0094718D /* SKVASTMediaFile.m */; };
+		27983C71198166330094718D /* SKVASTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C491981627E0094718D /* SKVASTModel.m */; };
+		27983C72198166350094718D /* SKVASTUrlWithId.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C4B1981627E0094718D /* SKVASTUrlWithId.m */; };
+		27983C73198166380094718D /* SKVAST2Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C4D1981627E0094718D /* SKVAST2Parser.m */; };
+		27983C741981663E0094718D /* SKVASTControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C4F1981627E0094718D /* SKVASTControls.m */; };
+		27983C75198166410094718D /* SKVASTEventProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C511981627E0094718D /* SKVASTEventProcessor.m */; };
+		27983C76198166430094718D /* SKVASTMediaFilePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C531981627E0094718D /* SKVASTMediaFilePicker.m */; };
+		27983C77198166460094718D /* SKVASTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C551981627E0094718D /* SKVASTViewController.m */; };
+		27983C781981664B0094718D /* VASTSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 27983C5C1981627E0094718D /* VASTSettings.m */; };
+		27CE3B4A183C209000AA96AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E248E36A17FA2A87003F4B8A /* Foundation.framework */; };
+		27CE3B4B183C209000AA96AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A7776817FB22FC00E3D3FB /* UIKit.framework */; };
+		27CE3B5E183C22B700AA96AA /* VAST_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2702B46D183C0C0F004CA93F /* VAST_Tests.m */; };
+		27CE3B6C183C240000AA96AA /* libSourceKitCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CE3B6B183C240000AA96AA /* libSourceKitCommon.a */; };
+		E248E36B17FA2A87003F4B8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E248E36A17FA2A87003F4B8A /* Foundation.framework */; };
+		E2A7776917FB22FC00E3D3FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A7776817FB22FC00E3D3FB /* UIKit.framework */; };
+		E2AA985117FCC952006113B6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AA984B17FCC833006113B6 /* CoreFoundation.framework */; };
+		E2AA985217FCC958006113B6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AA984F17FCC855006113B6 /* SystemConfiguration.framework */; };
+		E2D08FC017FB268C00EBF5B1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D08FBF17FB268C00EBF5B1 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27CE3B55183C209000AA96AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E248E35F17FA2A87003F4B8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E248E36617FA2A87003F4B8A;
+			remoteInfo = VAST;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2702B469183C0C0F004CA93F /* VAST Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VAST Tests-Info.plist"; sourceTree = "<group>"; };
+		2702B46D183C0C0F004CA93F /* VAST_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VAST_Tests.m; sourceTree = "<group>"; };
+		2702B46F183C0C0F004CA93F /* VAST Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VAST Tests-Prefix.pch"; sourceTree = "<group>"; };
+		27983C461981627E0094718D /* SKVASTMediaFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKVASTMediaFile.h; sourceTree = "<group>"; };
+		27983C471981627E0094718D /* SKVASTMediaFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKVASTMediaFile.m; sourceTree = "<group>"; };
+		27983C481981627E0094718D /* SKVASTModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKVASTModel.h; sourceTree = "<group>"; };
+		27983C491981627E0094718D /* SKVASTModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKVASTModel.m; sourceTree = "<group>"; };
+		27983C4A1981627E0094718D /* SKVASTUrlWithId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKVASTUrlWithId.h; sourceTree = "<group>"; };
+		27983C4B1981627E0094718D /* SKVASTUrlWithId.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKVASTUrlWithId.m; sourceTree = "<group>"; };
+		27983C4C1981627E0094718D /* SKVAST2Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKVAST2Parser.h; path = VAST/SKVAST2Parser.h; sourceTree = SOURCE_ROOT; };
+		27983C4D1981627E0094718D /* SKVAST2Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKVAST2Parser.m; path = VAST/SKVAST2Parser.m; sourceTree = SOURCE_ROOT; };
+		27983C4E1981627E0094718D /* SKVASTControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKVASTControls.h; path = VAST/SKVASTControls.h; sourceTree = SOURCE_ROOT; };
+		27983C4F1981627E0094718D /* SKVASTControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKVASTControls.m; path = VAST/SKVASTControls.m; sourceTree = SOURCE_ROOT; };
+		27983C501981627E0094718D /* SKVASTEventProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKVASTEventProcessor.h; path = VAST/SKVASTEventProcessor.h; sourceTree = SOURCE_ROOT; };
+		27983C511981627E0094718D /* SKVASTEventProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKVASTEventProcessor.m; path = VAST/SKVASTEventProcessor.m; sourceTree = SOURCE_ROOT; };
+		27983C521981627E0094718D /* SKVASTMediaFilePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKVASTMediaFilePicker.h; path = VAST/SKVASTMediaFilePicker.h; sourceTree = SOURCE_ROOT; };
+		27983C531981627E0094718D /* SKVASTMediaFilePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKVASTMediaFilePicker.m; path = VAST/SKVASTMediaFilePicker.m; sourceTree = SOURCE_ROOT; };
+		27983C541981627E0094718D /* SKVASTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKVASTViewController.h; path = VAST/SKVASTViewController.h; sourceTree = SOURCE_ROOT; };
+		27983C551981627E0094718D /* SKVASTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKVASTViewController.m; path = VAST/SKVASTViewController.m; sourceTree = SOURCE_ROOT; };
+		27983C581981627E0094718D /* vast_2.0.1.xsd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = vast_2.0.1.xsd; path = VAST/vast_2.0.1.xsd; sourceTree = SOURCE_ROOT; };
+		27983C591981627E0094718D /* SKVASTError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKVASTError.h; path = VAST/SKVASTError.h; sourceTree = SOURCE_ROOT; };
+		27983C5A1981627E0094718D /* VASTSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VASTSchema.h; path = VAST/VASTSchema.h; sourceTree = SOURCE_ROOT; };
+		27983C5B1981627E0094718D /* VASTSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VASTSettings.h; path = VAST/VASTSettings.h; sourceTree = SOURCE_ROOT; };
+		27983C5C1981627E0094718D /* VASTSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VASTSettings.m; path = VAST/VASTSettings.m; sourceTree = SOURCE_ROOT; };
+		27983C5D1981627E0094718D /* VASTXMLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VASTXMLUtil.h; path = VAST/VASTXMLUtil.h; sourceTree = SOURCE_ROOT; };
+		27983C5E1981627E0094718D /* VASTXMLUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VASTXMLUtil.m; path = VAST/VASTXMLUtil.m; sourceTree = SOURCE_ROOT; };
+		27BE491D1981889A004EE6D5 /* SKLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKLogger.h; path = VAST/SKLogger.h; sourceTree = SOURCE_ROOT; };
+		27BE491E198188BE004EE6D5 /* SKReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKReachability.h; path = VAST/SKReachability.h; sourceTree = "<group>"; };
+		27CE3B48183C209000AA96AA /* VAST Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VAST Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27CE3B6B183C240000AA96AA /* libSourceKitCommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSourceKitCommon.a; path = "../../../../../../../Library/Developer/Xcode/DerivedData/VASTDemo-ddgmpepqdrghpyfhxmxnvafxydyf/Build/Products/Debug-iphoneos/libSourceKitCommon.a"; sourceTree = "<group>"; };
+		D6E80D3F180DCF4D00D45091 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		E248E36717FA2A87003F4B8A /* libVAST.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVAST.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E248E36A17FA2A87003F4B8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2A7776817FB22FC00E3D3FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E2AA984B17FCC833006113B6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		E2AA984F17FCC855006113B6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E2D08FBF17FB268C00EBF5B1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27CE3B45183C209000AA96AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271DFDD2183E9D7C00D038A4 /* MediaPlayer.framework in Frameworks */,
+				27982B69183D60DF0073C76D /* libVAST.a in Frameworks */,
+				27CE3B6C183C240000AA96AA /* libSourceKitCommon.a in Frameworks */,
+				27CE3B4B183C209000AA96AA /* UIKit.framework in Frameworks */,
+				27CE3B4A183C209000AA96AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E248E36417FA2A87003F4B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AA985217FCC958006113B6 /* SystemConfiguration.framework in Frameworks */,
+				E2AA985117FCC952006113B6 /* CoreFoundation.framework in Frameworks */,
+				E2D08FC017FB268C00EBF5B1 /* MediaPlayer.framework in Frameworks */,
+				E2A7776917FB22FC00E3D3FB /* UIKit.framework in Frameworks */,
+				E248E36B17FA2A87003F4B8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2702B467183C0C0F004CA93F /* VAST Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2702B46D183C0C0F004CA93F /* VAST_Tests.m */,
+				2702B468183C0C0F004CA93F /* Supporting Files */,
+			);
+			path = "VAST Tests";
+			sourceTree = "<group>";
+		};
+		2702B468183C0C0F004CA93F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2702B469183C0C0F004CA93F /* VAST Tests-Info.plist */,
+				2702B46F183C0C0F004CA93F /* VAST Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27983C451981627E0094718D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				27983C461981627E0094718D /* SKVASTMediaFile.h */,
+				27983C471981627E0094718D /* SKVASTMediaFile.m */,
+				27983C481981627E0094718D /* SKVASTModel.h */,
+				27983C491981627E0094718D /* SKVASTModel.m */,
+				27983C4A1981627E0094718D /* SKVASTUrlWithId.h */,
+				27983C4B1981627E0094718D /* SKVASTUrlWithId.m */,
+			);
+			name = model;
+			path = VAST/model;
+			sourceTree = SOURCE_ROOT;
+		};
+		E248E35E17FA2A87003F4B8A = {
+			isa = PBXGroup;
+			children = (
+				27BE491D1981889A004EE6D5 /* SKLogger.h */,
+				27BE491E198188BE004EE6D5 /* SKReachability.h */,
+				E248E36C17FA2A87003F4B8A /* VAST */,
+				2702B467183C0C0F004CA93F /* VAST Tests */,
+				E248E36917FA2A87003F4B8A /* Frameworks */,
+				E248E36817FA2A87003F4B8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E248E36817FA2A87003F4B8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E248E36717FA2A87003F4B8A /* libVAST.a */,
+				27CE3B48183C209000AA96AA /* VAST Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E248E36917FA2A87003F4B8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27CE3B6B183C240000AA96AA /* libSourceKitCommon.a */,
+				D6E80D3F180DCF4D00D45091 /* libxml2.dylib */,
+				E2AA984F17FCC855006113B6 /* SystemConfiguration.framework */,
+				E2AA984B17FCC833006113B6 /* CoreFoundation.framework */,
+				E2D08FBF17FB268C00EBF5B1 /* MediaPlayer.framework */,
+				E2A7776817FB22FC00E3D3FB /* UIKit.framework */,
+				E248E36A17FA2A87003F4B8A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E248E36C17FA2A87003F4B8A /* VAST */ = {
+			isa = PBXGroup;
+			children = (
+				27983C451981627E0094718D /* model */,
+				27983C4C1981627E0094718D /* SKVAST2Parser.h */,
+				27983C4D1981627E0094718D /* SKVAST2Parser.m */,
+				27983C4E1981627E0094718D /* SKVASTControls.h */,
+				27983C4F1981627E0094718D /* SKVASTControls.m */,
+				27983C501981627E0094718D /* SKVASTEventProcessor.h */,
+				27983C511981627E0094718D /* SKVASTEventProcessor.m */,
+				27983C521981627E0094718D /* SKVASTMediaFilePicker.h */,
+				27983C531981627E0094718D /* SKVASTMediaFilePicker.m */,
+				27983C541981627E0094718D /* SKVASTViewController.h */,
+				27983C551981627E0094718D /* SKVASTViewController.m */,
+				27983C581981627E0094718D /* vast_2.0.1.xsd */,
+				27983C591981627E0094718D /* SKVASTError.h */,
+				27983C5A1981627E0094718D /* VASTSchema.h */,
+				27983C5B1981627E0094718D /* VASTSettings.h */,
+				27983C5C1981627E0094718D /* VASTSettings.m */,
+				27983C5D1981627E0094718D /* VASTXMLUtil.h */,
+				27983C5E1981627E0094718D /* VASTXMLUtil.m */,
+			);
+			name = VAST;
+			path = "mmk-vast-ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27CE3B47183C209000AA96AA /* VAST Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27CE3B59183C209000AA96AA /* Build configuration list for PBXNativeTarget "VAST Tests" */;
+			buildPhases = (
+				27CE3B44183C209000AA96AA /* Sources */,
+				27CE3B45183C209000AA96AA /* Frameworks */,
+				27982B6A183D60EE0073C76D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27CE3B56183C209000AA96AA /* PBXTargetDependency */,
+			);
+			name = "VAST Tests";
+			productName = "VAST Tests";
+			productReference = 27CE3B48183C209000AA96AA /* VAST Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E248E36617FA2A87003F4B8A /* VAST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E248E38A17FA2A87003F4B8A /* Build configuration list for PBXNativeTarget "VAST" */;
+			buildPhases = (
+				E248E36317FA2A87003F4B8A /* Sources */,
+				E248E36417FA2A87003F4B8A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VAST;
+			productName = "mmk-vast-ios";
+			productReference = E248E36717FA2A87003F4B8A /* libVAST.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E248E35F17FA2A87003F4B8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Nexage;
+				TargetAttributes = {
+					27CE3B47183C209000AA96AA = {
+						TestTargetID = E248E36617FA2A87003F4B8A;
+					};
+				};
+			};
+			buildConfigurationList = E248E36217FA2A87003F4B8A /* Build configuration list for PBXProject "VAST" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E248E35E17FA2A87003F4B8A;
+			productRefGroup = E248E36817FA2A87003F4B8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E248E36617FA2A87003F4B8A /* VAST */,
+				27CE3B47183C209000AA96AA /* VAST Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27982B6A183D60EE0073C76D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27CE3B44183C209000AA96AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27983C781981664B0094718D /* VASTSettings.m in Sources */,
+				27983C72198166350094718D /* SKVASTUrlWithId.m in Sources */,
+				27983C71198166330094718D /* SKVASTModel.m in Sources */,
+				27983C73198166380094718D /* SKVAST2Parser.m in Sources */,
+				27983C70198166300094718D /* SKVASTMediaFile.m in Sources */,
+				27983C76198166430094718D /* SKVASTMediaFilePicker.m in Sources */,
+				27983C77198166460094718D /* SKVASTViewController.m in Sources */,
+				27CE3B5E183C22B700AA96AA /* VAST_Tests.m in Sources */,
+				27983C741981663E0094718D /* SKVASTControls.m in Sources */,
+				27983C75198166410094718D /* SKVASTEventProcessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E248E36317FA2A87003F4B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27983C5F1981627E0094718D /* SKVASTMediaFile.m in Sources */,
+				27983C681981627E0094718D /* VASTXMLUtil.m in Sources */,
+				27983C641981627E0094718D /* SKVASTEventProcessor.m in Sources */,
+				27983C621981627E0094718D /* SKVAST2Parser.m in Sources */,
+				27983C611981627E0094718D /* SKVASTUrlWithId.m in Sources */,
+				27983C661981627E0094718D /* SKVASTViewController.m in Sources */,
+				27983C601981627E0094718D /* SKVASTModel.m in Sources */,
+				27983C651981627E0094718D /* SKVASTMediaFilePicker.m in Sources */,
+				27983C631981627E0094718D /* SKVASTControls.m in Sources */,
+				27983C671981627E0094718D /* VASTSettings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27CE3B56183C209000AA96AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E248E36617FA2A87003F4B8A /* VAST */;
+			targetProxy = 27CE3B55183C209000AA96AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27CE3B57183C209000AA96AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VAST Tests/VAST Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "VAST Tests/VAST Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-lxml2",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		27CE3B58183C209000AA96AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VAST Tests/VAST Tests-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "VAST Tests/VAST Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-lxml2",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		E248E38817FA2A87003F4B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = VAST;
+				PUBLIC_HEADERS_FOLDER_PATH = Headers;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E248E38917FA2A87003F4B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = VAST;
+				PUBLIC_HEADERS_FOLDER_PATH = Headers;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E248E38B17FA2A87003F4B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/VAST.dst;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = VAST;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E248E38C17FA2A87003F4B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/VAST.dst;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = VAST;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27CE3B59183C209000AA96AA /* Build configuration list for PBXNativeTarget "VAST Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CE3B57183C209000AA96AA /* Debug */,
+				27CE3B58183C209000AA96AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E248E36217FA2A87003F4B8A /* Build configuration list for PBXProject "VAST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E248E38817FA2A87003F4B8A /* Debug */,
+				E248E38917FA2A87003F4B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E248E38A17FA2A87003F4B8A /* Build configuration list for PBXNativeTarget "VAST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E248E38B17FA2A87003F4B8A /* Debug */,
+				E248E38C17FA2A87003F4B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E248E35F17FA2A87003F4B8A /* Project object */;
+}
