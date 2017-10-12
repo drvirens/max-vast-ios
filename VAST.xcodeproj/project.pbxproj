@@ -80,6 +80,16 @@
 		27CE3B6B183C240000AA96AA /* libSourceKitCommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSourceKitCommon.a; path = "../../../../../../../Library/Developer/Xcode/DerivedData/VASTDemo-ddgmpepqdrghpyfhxmxnvafxydyf/Build/Products/Debug-iphoneos/libSourceKitCommon.a"; sourceTree = "<group>"; };
 		7E52FC1D1F8EF8920075649B /* SKCommonSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKCommonSettings.h; sourceTree = "<group>"; };
 		7E52FC1E1F8EF8920075649B /* SKCommonSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKCommonSettings.m; sourceTree = "<group>"; };
+		7E52FC201F8EF8EB0075649B /* BackButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackButton.h; sourceTree = "<group>"; };
+		7E52FC211F8EF8EB0075649B /* ForwardButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForwardButton.h; sourceTree = "<group>"; };
+		7E52FC221F8EF8EB0075649B /* SKBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKBrowser.h; sourceTree = "<group>"; };
+		7E52FC231F8EF8EB0075649B /* SKBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKBrowser.m; sourceTree = "<group>"; };
+		7E52FC241F8EF8EB0075649B /* SKBrowserControlsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKBrowserControlsView.h; sourceTree = "<group>"; };
+		7E52FC251F8EF8EB0075649B /* SKBrowserControlsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKBrowserControlsView.m; sourceTree = "<group>"; };
+		7E52FC281F8EF8F30075649B /* SKReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKReachability.h; sourceTree = "<group>"; };
+		7E52FC291F8EF8F30075649B /* SKReachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKReachability.m; sourceTree = "<group>"; };
+		7E52FC2B1F8EF8F30075649B /* SKLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKLogger.h; sourceTree = "<group>"; };
+		7E52FC2C1F8EF8F30075649B /* SKLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKLogger.m; sourceTree = "<group>"; };
 		D6E80D3F180DCF4D00D45091 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		E248E36717FA2A87003F4B8A /* libVAST.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVAST.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E248E36A17FA2A87003F4B8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -149,6 +159,45 @@
 			path = VAST/model;
 			sourceTree = SOURCE_ROOT;
 		};
+		7E52FC1F1F8EF8EB0075649B /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				7E52FC201F8EF8EB0075649B /* BackButton.h */,
+				7E52FC211F8EF8EB0075649B /* ForwardButton.h */,
+				7E52FC221F8EF8EB0075649B /* SKBrowser.h */,
+				7E52FC231F8EF8EB0075649B /* SKBrowser.m */,
+				7E52FC241F8EF8EB0075649B /* SKBrowserControlsView.h */,
+				7E52FC251F8EF8EB0075649B /* SKBrowserControlsView.m */,
+			);
+			path = Browser;
+			sourceTree = "<group>";
+		};
+		7E52FC261F8EF8F30075649B /* External */ = {
+			isa = PBXGroup;
+			children = (
+				7E52FC271F8EF8F30075649B /* Reachability */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		7E52FC271F8EF8F30075649B /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				7E52FC281F8EF8F30075649B /* SKReachability.h */,
+				7E52FC291F8EF8F30075649B /* SKReachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		7E52FC2A1F8EF8F30075649B /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				7E52FC2B1F8EF8F30075649B /* SKLogger.h */,
+				7E52FC2C1F8EF8F30075649B /* SKLogger.m */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
 		E248E35E17FA2A87003F4B8A = {
 			isa = PBXGroup;
 			children = (
@@ -193,8 +242,11 @@
 				27983C501981627E0094718D /* SKVASTEventProcessor.h */,
 				27983C511981627E0094718D /* SKVASTEventProcessor.m */,
 				27983C521981627E0094718D /* SKVASTMediaFilePicker.h */,
+				7E52FC261F8EF8F30075649B /* External */,
+				7E52FC2A1F8EF8F30075649B /* Logger */,
 				27983C531981627E0094718D /* SKVASTMediaFilePicker.m */,
 				27983C541981627E0094718D /* SKVASTViewController.h */,
+				7E52FC1F1F8EF8EB0075649B /* Browser */,
 				27983C551981627E0094718D /* SKVASTViewController.m */,
 				27983C581981627E0094718D /* vast_2.0.1.xsd */,
 				27983C591981627E0094718D /* SKVASTError.h */,
